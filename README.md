@@ -1,8 +1,13 @@
+IMage Hosting Script
+====================
+Based on: 
+Changed by: Marcel de Haas
+
 # Installation #
 1. Install a webserver
 2. Install PHP
-3. Create a new folder called "up" in the same directory of index.php
-4. `chmod 755 up`
+3. Create a new folder called "uploads" in the same directory of index.php
+4. `chmod 755 uploads`
 5. That's it
 
 # Configuration #

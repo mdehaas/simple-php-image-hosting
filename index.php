@@ -1,11 +1,13 @@
 <?php
 // Configuration
 $title = 'Image Uploader';
-$filedir = 'up';
+$filedir = 'uploads';
 $maxsize = 5242880; //max size in bytes
-$allowedExts = array('png', 'jpg', 'jpeg', 'gif');
-$allowedMime = array('image/png', 'image/jpeg', 'image/pjpeg', 'image/gif');
+$allowedExts = array('png');
+$allowedMime = array('image/png');
 $baseurl = $_SERVER['HTTP_HOST'].dirname($_SERVER['REQUEST_URI']).'/'.$filedir;
+
+include_once ("config.php");
 ?>
 <html>
 <head>
